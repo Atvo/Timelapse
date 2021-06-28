@@ -130,7 +130,7 @@ def create_gif(image_dict, duration_list, output_folder_name, output_file_name, 
 	print("Gif created")
 
 def create_video(image_dict, output_folder_name, output_file_name, frame_length_dict, fps, ffr, stabilize):
-	tmp_output_path = os.path.join(".", output_folder_name, "tmp_ " + output_file_name)
+	tmp_output_path = os.path.join(".", output_folder_name, "tmp_" + output_file_name)
 	output_path = os.path.join(".", output_folder_name, "stable_" + output_file_name)
 	image_list = list(image_dict)
 	image_count = len(image_dict)
